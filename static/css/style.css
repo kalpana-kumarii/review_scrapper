@@ -60,14 +60,17 @@ table tr:nth-child(2n+1) {
 
 .content{
     
-  display: flex;
+  /* display: flex; */
   /* justify-content: center; */
   /* margin-top: 50%; */
+
   align-items: center;
   flex-direction: column;
   border: 1px solid red;
 }
-
+.form{
+  margin-left: 10%;
+}
 .form input{
   border: none;
   outline: none;

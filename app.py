@@ -79,7 +79,7 @@ def index():
 
             logging.info("log my final result {}".format(reviews))
 
-            client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.zusqqy6.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://username:password@cluster0.zusqqy6.mongodb.net/?retryWrites=true&w=majority")
             db = client['review_scrap']
 
             review_col=db['review_scrap_data']

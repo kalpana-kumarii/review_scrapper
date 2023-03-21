@@ -2,10 +2,13 @@ body, html {
     margin: 0;
     font-family: sans-serif;
 }
-
+.container{
+    margin-top: 10%;
+}
 .content {
     margin: 0 auto;
-    width: 400px;
+    width: 90%;
+   
 }
 
 table, td, th {
@@ -31,5 +34,5 @@ td {
 }
 
 #content {
-    width: 70%;
+    width: 500px;
 }
